@@ -20,5 +20,9 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        TextView textView = findViewById(R.id.textView);
+        Button button1 = findViewById(R.id.button1);
+
+        button1.setOnClickListener(view -> textView.setText("Labas, MIPT!"));
     }
 }
