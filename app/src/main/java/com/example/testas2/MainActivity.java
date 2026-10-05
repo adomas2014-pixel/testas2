@@ -24,5 +24,8 @@ public class MainActivity extends AppCompatActivity {
         Button button1 = findViewById(R.id.button1);
 
         button1.setOnClickListener(view -> textView.setText("Labas, MIPT!"));
+
+        Button button2 = findViewById(R.id.button2);
+        button2.setOnClickListener(view -> textView.setTextColor(Color.RED));
     }
 }
